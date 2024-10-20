@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: sans-serif;
+}
+body{
+    background: linear-gradient(#0fad4c,#013d2b);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: purple;
+    position: absolute;
+    clip-path: circle(40% at right 70%);
+    z-index: -1;
+}
+.cont{
+    width: 80%;
+    height: 80%;
+    background:rgba(255,255,255,0.1);
+    border-radius: 20px;
+}
+.cont img{
+    width: 150px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding: 5% 0;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 6px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 18px;
+   
+
+}
+nav ul li a:hover{
+    background: white;
+    border-radius: 20px;
+    color: rgb(195, 0, 255);
+    width: 30px;
+    border-color:rgb(195, 0, 255) ;
+    transform: scale(1.2);
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60%;
+    width: 80%;
+    margin: auto;
+    overflow:hidden
+}
+div .text{
+    color: aliceblue;
+    width: 40%;
+}
+div .text h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color:purple ;
+}
+div .text p{
+    font-size: 18px;
+    line-height: 25px;
+    margin: 10px 0;
+    letter-spacing: 1px;
+}
+@media(min-width:950px) and(max-width:1150px){
+    
+}
+@media(max-width:950px){
+    .content{
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    .content .image, .content.text{
+        width: 80%;
+    }
+}
+.imbut{
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+}
+#up{
+    width: 100px;
+    margin: 10% 17%;
+    height: 50px;
+    border-radius: 20px;
+    border-color: blue;
+    background:rgba(255,255,255,0.1);
+    font-size: 15px;
+    font-family: tahoma;
+    color: blue;
+    transition: 0.5s;
+    cursor: pointer;
+}
+#up:hover{
+    transform: scale(1.2);
+}
+.text button{
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    border-color: rgb(52, 1, 82);
+    background:rgba(255,255,255,0.1);
+    font-size: 15px;
+    font-family: tahoma;
+    color: rgb(34, 1, 61);
+    transition: 0.5s;
+    margin: 0 3%;
+    cursor: pointer;
+}
+.text button:hover{
+    transform:scale(1.2);
+}
+.image{
+    transform: 0.5s;
+}
+.image:hover{
+    transform: scale(0.9);
+}

@@ -1,0 +1,431 @@
+
+body{
+	display: flex;
+	background: #020114;
+	width: 100%%;
+	height: 2000px;
+	color:white;
+
+
+}
+header{
+	width: 20%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	position: fixed;
+	background: black;
+	border-right:1px solid gray ;
+}
+div.logo{
+	cursor:pointer;
+	padding: 2px 0px 2px 2px;
+	margin: 1% 3%;
+}
+div#icon{
+	margin: 2% 2%;
+	display: inline-block;
+	cursor: pointer;
+}
+div#icon ul li a{
+	text-decoration: none;
+	color: gray;
+}
+div#icon ul li{
+	list-style: none;
+	margin: 8% 0%;
+	margin-left:-3% ;
+	font-family: tahoma;
+	color: gray;
+	font-style: normal;
+	font-size: 18px;
+	text-decoration: none;
+}
+div#icon ul li:hover{
+	color: white;
+	transition-duration:1s ;
+}
+div#icon ul li a{
+	margin: 0% 2%;
+}
+div#icom{
+	margin-top: 2%;
+	margin: 2% 2%;
+	display: inline-block;
+	cursor: pointer;
+}
+div#icom ul li{
+	list-style: none;
+	margin: 8% 0%;
+	margin-left:-3% ;
+	font-family: tahoma;
+	color: gray;
+	font-size: 18px;
+}
+div#icom ul li:hover{
+	color: white;
+	transition-duration:1s ;
+}
+div#icom ul li a{
+	margin: 0% 2%;
+}
+hr{
+	width: 90%;
+	margin: 0auto;
+	border: 1px solid gray;
+}
+main{
+	margin: 2% 0%;
+display: inline-block;
+	margin-left: 20%;
+	height: 150px;
+	width: 80%;
+	background: transparent;
+	position: fixed;
+	transition-duration:1s ;
+}
+main div.oun{
+	display: flex;
+	width: 100%;
+
+}
+.ounn{
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+main div.oun i{
+	border: 1px solid gray;
+	border-radius:50% ;
+	font-size: 25px;
+	justify-content: space-between;
+	border: none;
+	background: darkgray;
+}
+#ounn{
+	width: 100%;
+	height: 100px;
+	background: #02011ae3;
+	position:fixed;
+	flex-direction: column;
+	cursor: pointer;
+}
+
+#onn{
+	width: 20%;
+	display: inline-block;
+	margin: 2% 2%;
+}
+#onn button{
+	margin: 0% 2%;
+	display:inline-block;
+	flex-direction: column;
+	font-size: 15px;
+	color: white;
+	background: black;
+	width: 15%;
+	border-radius:50% ;
+	border: none;
+
+}
+#onn button:hover{
+	background: #333333e0;
+	color: black;
+	transition-duration:1s ;
+}
+#onn button i{
+	border: none;
+}
+#too{
+	width: 80%;
+	margin: center;
+	display: inline-block;
+	margin-bottom: 5%;
+}
+button#btna{
+	width: 13%;
+	border-radius:50px ;
+	font-size: 15px;
+	color: white;
+	margin: 0 1%;
+	  border-width: 1px;
+	background: transparent;
+	border-color: gray;
+	margin-left: 50%;
+	transition-duration:1s ;
+}
+button#btna:hover{
+	border-color:white;
+	transform: scale(1.1);
+	transition-duration:1s ;
+}
+button#btnt{
+	/*margin: 0 2%;
+	width: 30%;
+	border-radius:25% ;
+	font-size: 15px;
+	color: white;
+	background: transparent;
+	border-color: gray;
+	height: 40px;*/
+    display: inline-block;
+    background: none;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50px;
+    padding: 7px 16px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+    transition: all .2s ease;
+    color: white;
+	cursor: pointer;
+}
+button#btnt:hover{
+	background: gray;
+}
+button#btnt i{
+	margin-right:% 10;
+		font-size: 25px;
+
+}
+button#btnt a{
+	font-size: 20px;
+}
+
+main.small{
+	width: 85%;
+	height: 100px;
+	background: transparent;
+	transition-duration:1s ;
+	color: transparent;
+}
+.unoo{
+	width: 100%;
+	height: 400px;
+	display: inline-block;
+	margin-left:% ;
+	margin-top: 10%;
+}
+.unoo ul{
+	display: flex;
+}
+
+.unoo h1{
+	font-family: typesetting;
+	font-size:30px 
+}
+/*
+nav#imaa{
+	display: flex;
+	background:#80808033;
+	width: 33%;
+	height: 80px;
+	border-radius:10px ;
+	border-style: solid;
+	border:none;
+	margin: 0 3%;
+}
+nav#imaa h2{
+	margin: 7% 5%;
+}
+div#big{
+	display: inline-block;
+	width: 80%;
+}
+/*2*/
+/*}
+nav#imab{
+	display:flex;
+	background:#80808033;
+	width: 33%;
+	height: 80px;
+	border-radius:10px ;
+	border-style: solid;
+	border:none;
+}
+nav#imab h2{
+	margin: 7% 5%;
+}
+div#big{
+	display: flex;
+}
+*/
+
+ul#big{
+	width: 100%;
+	display: flex;
+}
+ul#big li{
+	display:flex;
+	background:#80808033;
+	width: 45%;
+	height: 80px;
+	border-radius:10px ;
+	border-style: solid;
+	border:none;
+	margin: 0 1%;
+}
+ul#big li:hover{
+	background: darkgray;
+}
+ul#big li h2{
+	margin: 11% 5%;
+	font-size:15px ;
+}
+sections.dus{
+	width: 100%;
+	height: 400px;
+	display: inline-block;
+	margin-left:25% ;
+	margin-top: 10%;
+}
+section.bigg{
+	display: inline-block;
+	width: 80%;
+	margin-left:23% ;
+}
+.dus h1{
+	font-family: typesetting;
+	font-size:30px 
+}
+.dus ul{
+	display: flex;
+}
+.dus ul li{
+	width: 20%;
+	background:#80808033 ;
+	list-style: none;
+	display: inline-block;
+	text-align: center;
+	font-family: tahoma;
+	border-style:solid ;
+	border-radius: 10px;
+	border-color: gray;
+	margin: 0 1%;
+}
+.dus ul li:hover{
+	background: darkgray;
+}
+.dus ul li img{
+	margin: 5% 6%;
+}
+#onnn{
+	width: 60%;
+}
+#onnn button{
+	margin: 0% 2%;
+	display:inline-block;
+	flex-direction: column;
+	font-size: 15px;
+	color: white;
+	background: black;
+	width: 5%;
+	border-radius:50% ;
+	border: none;
+	cursor: pointer;
+}
+#onnn button:hover{
+	background: #333333e0;
+	color: black;
+	transition-duration:1s ;
+}
+#onnn input{
+ display: inline-block;
+    background: white;
+    border:none;
+    padding: 7px 16px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-decoration: none;
+    transition: all .2s ease;
+    color: black;
+    width: 95%;
+	cursor: pointer;
+}
+#onnn input:hover{
+	border: none;
+}
+#onnn button.srch{
+	 display: inline-block;
+    background: white;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50px;
+    padding: 7px 16px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+    transition: all .2s ease;
+    color: black;
+    width: 60%;
+    font-size: 15px;
+
+}
+#tooo{
+	margin-left: 18%;
+	width: 20%;
+}
+li .srchh{
+	color: white;
+}
+li.wahd{
+	background: orange;
+}
+.du ul{
+	display: flex;
+}
+.du ul li{
+	width: 20%;
+	height: 250px;
+	list-style: none;
+	display: inline-block;
+	font-family: tahoma;
+	border-radius: 10px;
+	border-color: transparent;
+	margin: 0 1%;
+}
+.outer{
+	padding-top: 4%;
+	list-style-type: none;
+	text-align: center;
+	margin: 0;
+	white:80%;
+	padding: 0;
+	margin-top: 8%;
+}
+.box{
+	display: inline-block;
+	padding: 5%;
+	margin: 3% 2%;
+	width: 5%;
+	height: 70px;
+	border-radius: 20px;
+	background-color: rgb(192, 10, 10);
+	transition: 0.5s;
+	cursor: pointer;
+}
+.box:hover{
+	transform: scale(1.2);
+}
+.box h3{
+	font-size: 30px;
+	margin-top: 5%;
+}
+.box img{
+	width: 110px;
+	margin-top5: %;
+}
+#last img{
+	width: 300px;
+
+}
+#last{
+	width: 100%;
+}
+
+
+
+

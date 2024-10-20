@@ -1,0 +1,27 @@
+{
+    "resizeMode": "Do not resize",
+    "resizePercentage": 50,
+    "resizeWidth": 1920,
+    "resizeHeight": 1080,
+    "resizeLongest": 1920,
+    "fillMode": "Stretch",
+    "format": "Original",
+    "background": "Transparent",
+    "colorDepth": 0,
+    "quality": 92,
+    "maxFileSize": 102400,
+    "dithering": "Atkinson",
+    "hidden": [],
+    "filter": {
+        "id": "mks2013",
+        "displayName": "Magic Kernel",
+        "downscale": true,
+        "upscale": true
+    },
+    "effect": {
+        "displayName": "None",
+        "options": {},
+        "html": "",
+        "$$hashKey": "object:152"
+    }
+}
